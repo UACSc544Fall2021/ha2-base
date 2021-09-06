@@ -1,0 +1,36 @@
+<html>
+    <head>
+	<title>Family Name, Given Name - HA 2</title>
+	<script src="dataF2021.js" type="text/javascript"></script>
+	<script src="HA2.js" type="text/javascript"></script>
+	<script src="https://d3js.org/d3.v6.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="HA2.css" />
+    </head>
+    <body>
+      <div class="container">
+	<div class="scatter-ui">
+	    <div class="sidebar">
+		<label class="scatter-label" for="x-select">x:</label>
+		<select id="x-select"></select>
+		<label class="scatter-label" -for="y-select">y:</label>
+		<select id="y-select"></select>
+		<label class="scatter-label" for="color-select">color:</label>
+		<select id="color-select"></select>
+		<label class="scatter-label" for="filter-select">filter:</label>
+		<select id="filter-select"></select>
+	    </div>
+	    <div class="mainview">
+	      <div>
+	        <label class="selected-label" for="selected-point">Selected:</label>
+	        <span id="selected-point" class="selected-label"></span>
+              </div>
+	      <svg id="drawing1" class="scatter" />
+	    </div>
+	</div>
+	<div>
+	    <p class="chart-title">Grade Percentages</p>
+	    <svg id="drawing0" class="barchart" />
+	</div>
+      </div>
+    </body>
+</html>

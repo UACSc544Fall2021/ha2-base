@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    font: 10pt sans-serif;
+    background: #EEE;
+}
+
+input {
+    -webkit-appearance: none;
+}
+
+div {
+    padding: 5px;
+}
+
+svg {
+    background: white;
+}
+
+select {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+.scatter-label {
+    margin-top: 10px;
+    margin-right: 2px;
+}
+
+.chart-title {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font: 16pt sans-serif;
+}
+
+.barchart {
+    width: 450;
+    height: 450;
+}
+
+.scatter {
+    width: 600;
+    height: 600;
+}
+
+.container {
+    position: relative;
+}
+
+.scatter-ui {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainview {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.selected-label {
+    margin-bottom: 20px;
+}
+
+span.selected-label {
+    color: darkblue;
+}
