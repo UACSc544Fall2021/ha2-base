@@ -1,9 +1,9 @@
 const grade_percents = {
-    "Project": 29,
-    "Presentation": 6,
-    "Homework": 28,
-    "Midterm": 16,
-    "Final": 23
+    "Project": 35,
+    "Presentation": 5,
+    "Homework": 25,
+    "Midterm": 15,
+    "Final": 20
 }
 
 // This is a subset of the Game Sales as of Dec 22 2016 dataset posted
